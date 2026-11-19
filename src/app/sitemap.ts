@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';export default function sitemap():MetadataRoute.Sitemap{const base=process.env.APP_URL||'http://127.0.0.1:3000';return ['', '/services','/privacy','/licenses'].map(p=>({url:new URL(p,base).href,changeFrequency:'monthly',priority:p?0.3:1}))}
