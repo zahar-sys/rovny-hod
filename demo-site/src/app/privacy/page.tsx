@@ -1,0 +1,2 @@
+import {siteUrl} from '@/lib/site-url';
+import {SiteHeader} from '@/components/ui';export default function Page(){return <><SiteHeader/><main className="container legal-main"><h1>Демонстрационный режим</h1><p>Эта версия предназначена для показа интерфейса. Данные формы и превью фото сохраняются только в вашем браузере и не отправляются мастеру. Используйте вымышленные данные. Рабочий приём заявок подключается отдельно.</p><a href={siteUrl("/")}>На главную</a></main></>}

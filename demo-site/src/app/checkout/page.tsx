@@ -1,0 +1,1 @@
+import Checkout from '@/components/Checkout';import {defaults} from '@/lib/domain';export default function Page(){return <Checkout settings={defaults}/>}

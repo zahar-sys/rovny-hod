@@ -1,0 +1,2 @@
+import {siteUrl} from '@/lib/site-url';
+import {SiteHeader} from '@/components/ui';export default function Page(){return <><SiteHeader/><main className="container legal-main"><h1>Кабинет владельца</h1><p>Кабинет с заявками, статусами и настройками подключается при рабочем запуске.</p><a className="button" href={siteUrl("/")}>На главную</a></main></>}

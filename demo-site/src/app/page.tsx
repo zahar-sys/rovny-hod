@@ -1,0 +1,1 @@
+import Home from '@/components/Home';import {defaults} from '@/lib/domain';export default function Page(){return <Home settings={defaults}/>}

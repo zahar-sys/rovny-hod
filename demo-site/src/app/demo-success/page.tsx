@@ -1,0 +1,2 @@
+import {siteUrl} from '@/lib/site-url';
+import {SiteHeader} from '@/components/ui';export default function Page(){return <><SiteHeader/><main className="container legal-main"><div className="section-label">Демонстрация</div><h1>Так выглядит отправка заявки</h1><p>В рабочей версии мастер получит заявку, а клиент — ссылку для отслеживания статуса.</p><p>В этой демонстрации данные никуда не отправлялись.</p><a className="button" href={siteUrl("/")}>На главную</a></main></>}
